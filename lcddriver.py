@@ -109,6 +109,9 @@ class lcd:
       for char in string:
          self.lcd_write(ord(char), Rs)
 
+      for i in range(len(string), 20):   # erase rest of line
+         self.lcd_write(ord(" "), Rs)
+
    # clear lcd and set to home
    def lcd_clear(self):
       self.lcd_write(LCD_CLEARDISPLAY)
