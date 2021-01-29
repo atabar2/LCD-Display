@@ -1,11 +1,5 @@
 # This is the main driver stub file
 
-# First edit from the web side to test sync
-
-# First edit from RaspPi 3
-
-# trying to get the new file in
-
 import lcddriver
 from time import *
 from datetime import datetime
