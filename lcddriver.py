@@ -1,6 +1,7 @@
-﻿import sys
+﻿# just trying to sync
+import sys
 #sys.path.append("./lib")
-sys.path.append("/home/piPrograms/Display")
+sys.path.append("/home/pi/Programs/Display/LCD-Display")
 
 import i2c_lib
 from time import *
